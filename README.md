@@ -35,6 +35,30 @@ Decoding (main thread)
   tks/sec:        29,194,890.2 ±220,612.6
   tks/sec/worker: 29,194,890.2 ±220,612.6
 
+Encoding (iterations) (main thread)
+  id:             enc-main-iter
+  workers:        N/a
+  iterations:     32,768
+    inner:        512
+    outer:        64
+  elapsed:        4,428.76sec
+  samples:        20
+  ops/sec:        296.2 ±0.35%
+  tks/sec:        279,049.6 ±970.0
+  tks/sec/worker: 279,049.6 ±970.0
+
+Decoding (iterations) (main thread)
+  id:             dec-main-iter
+  workers:        N/a
+  iterations:     32,768
+    inner:        512
+    outer:        64
+  elapsed:        49.35sec
+  samples:        22
+  ops/sec:        29,379.6 ±2.41%
+  tks/sec:        27,675,625.7 ±667,365.1
+  tks/sec/worker: 27,675,625.7 ±667,365.1
+
 Encoding (iterations) (worker threads)
   id:             enc-worker-iter
   workers:        32
