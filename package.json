@@ -1,0 +1,19 @@
+{
+  "name": "tiktoken-bench",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "bench": "npx tsx ./index.ts"
+  },
+  "author": "Maddison Hellstrom",
+  "license": "MIT",
+  "dependencies": {
+    "@types/benchmark": "^2.1.2",
+    "@types/node": "^20.2.5",
+    "benchmark": "^2.1.4",
+    "threads": "^1.7.0",
+    "tiktoken": "^1.0.7"
+  }
+}
