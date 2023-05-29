@@ -6,6 +6,10 @@ It compares the performance of tiktoken on the main thread verus worker threads 
 
 [Benchmark.js](https://github.com/bestiejs/benchmark.js) is used for benchmarking.
 
+## Purpose
+
+The main purpose for writing this benchmark suite was to determine if it's worth offloading tokenization onto a worker thread, in the context of a Node.js web server. We've determined that, for our use-case, tiktoken is performant enough to run on the main thread.
+
 ## Benchmarks
 
 These benchmarks are based on tiktoken `1.0.7`, and were run on a Linux desktop with an AMD Ryzen Threadripper 1950x and 64GB RAM:
